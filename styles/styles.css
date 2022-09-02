@@ -1,0 +1,24 @@
+/* Pages*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    background-color: aqua;
+}
+
+/* Navbar */
+
+/* Main */
+
+/* Footer */
