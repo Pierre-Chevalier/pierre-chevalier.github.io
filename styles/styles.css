@@ -1,14 +1,31 @@
+/* Variables */
+:root {
+    --main-color: #071b31;
+    --secondary-color: #cc9565;
+    --main-text-color: #fff;
+}
+
 /* Style général */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--main-color);
+    color: var(--main-text-color);
   }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
   /* Style d'en-tête */
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--main-text-color);
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -34,18 +51,15 @@ body {
   }
 
   nav a {
-    color: #fff;
+    color: var(--main-text-color);
     text-decoration: none;
   }
 
-  /* Style de la présentation */
-  #presentation {
-    margin: 50px 0;
-  }
 
   /* Style de chaque section */
   section {
-    margin: 50px 0;
+    margin: 2vh auto;
+    width:fit-content;
   }
 
   section h2 {
@@ -81,6 +95,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    color: #333;
   }
 
   #competences li {
@@ -93,8 +108,8 @@ body {
 
   /* Style du pied de page */
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--main-text-color);
     padding: 20px;
     text-align: center;
   }
@@ -104,7 +119,7 @@ body {
   }
 
   footer a {
-    color: #fff;
+    color: var(--main-text-color);
     text-decoration: none;
   }
 
