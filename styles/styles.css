@@ -143,20 +143,20 @@ main {
 /* Pour les appareils mobiles avec une largeur maximale de 767px */
 @media only screen and (max-width: 767px) {
   img {
-    max-width: 100vw;
+    max-width: 99vw;
   }
 }
 
 /* Pour les tablettes avec une largeur minimale de 768px et une largeur maximale de 1023px */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   img {
-    max-width: 100vw;
+    max-width: 99vw;
   }
 }
 
 /* Pour les ordinateurs de bureau avec une largeur minimale de 1024px */
 @media only screen and (min-width: 1024px) {
   img {
-    max-width: 100vw;
+    max-width: 99vw;
   }
 }
