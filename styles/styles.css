@@ -2,12 +2,12 @@
 :root {
   --main-color: #c3e2ca;
   --secondary-color: #587d9e;
-  --main-text-color: #494e5e;
+  --main-text-color: #fff;
 }
 
 /* Style général */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   background-color: var(--main-color);
@@ -31,6 +31,9 @@ header {
   padding: 20px;
   height: 3vh;
   margin-bottom: 5vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem
 }
 
 header h1 {
