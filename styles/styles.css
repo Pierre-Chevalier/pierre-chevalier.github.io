@@ -135,28 +135,25 @@ main {
     text-decoration: underline;
   }
 
-  /* Style de l'image */
-  img {
-    max-width: 40%;
-  }
+
 
 /* Pour les appareils mobiles avec une largeur maximale de 767px */
 @media only screen and (max-width: 767px) {
   img {
-    max-width: 99vw;
+    max-width: 95vw;
   }
 }
 
 /* Pour les tablettes avec une largeur minimale de 768px et une largeur maximale de 1023px */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   img {
-    max-width: 99vw;
+    max-width: 90vw;
   }
 }
 
 /* Pour les ordinateurs de bureau avec une largeur minimale de 1024px */
 @media only screen and (min-width: 1024px) {
   img {
-    max-width: 99vw;
+    max-width: 50%;
   }
 }
