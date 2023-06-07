@@ -141,6 +141,8 @@ main {
 @media only screen and (max-width: 767px) {
   img {
     max-width: 95vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 }
 
@@ -148,12 +150,16 @@ main {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   img {
     max-width: 90vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 }
 
 /* Pour les ordinateurs de bureau avec une largeur minimale de 1024px */
 @media only screen and (min-width: 1024px) {
   img {
-    max-width: 50%;
+    max-width: 60%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
   }
 }
